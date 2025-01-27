@@ -14,6 +14,7 @@ profiler.run
       profiler.run
     end
   end
+  
 
   if profile_type == :cpu && (graph_filename = ENV['GRAPH_FILENAME'])
     File.open(graph_filename, 'w') do |f|
